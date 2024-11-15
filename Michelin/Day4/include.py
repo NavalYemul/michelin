@@ -23,8 +23,3 @@ def add_ingestion_col(df):
 # MAGIC create schema if not exists michelin.bronze;
 # MAGIC create schema if not exists michelin.silver;
 # MAGIC create schema if not exists michelin.gold;
-
-# COMMAND ----------
-
-dbutils.widgets.text("table","")
-source_file_name=dbutils.widgets.get("table")

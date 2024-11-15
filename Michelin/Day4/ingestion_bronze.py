@@ -26,4 +26,4 @@ df_final.write.mode("overwrite").saveAsTable(f"{schema}.{source_file_name}")
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC select * from `${catalog}`.`${schema}`.`${table}`
+# MAGIC --select * from `${catalog}`.`${schema}`.`${table}`
